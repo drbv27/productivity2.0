@@ -31,7 +31,7 @@ const LeftNavbar = ({usuario}) => {
         </ul>
       ):(
         <ul>
-          <NavLink href={"/"} icon={faSignInAlt} texto={"Ingresar"}/>
+          <NavLink href={"/LoginRegister"} icon={faSignInAlt} texto={"Ingresar"}/>
         </ul>
       )}
 

@@ -12,7 +12,8 @@ const Home = () => {
   return (
       <Layout>
         <Contenido>
-          <Heading>Inicio 2</Heading>
+          <Heading>Bienvenido</Heading>
+          <Heading>Inicia sesión</Heading>
         </Contenido>
       </Layout>
   )
