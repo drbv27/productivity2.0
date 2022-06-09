@@ -2,18 +2,22 @@ import React from 'react'
 import Image from 'next/image'
 import styled from "@emotion/styled"
 
-const HeadContainer = styled.div`
+const HeadContainer = styled.header`
   height: 80px;
   background-color: rgb(255, 255, 255);
-  background-color:red;
+  background-color:green;
   margin-left: 150px;
 `
 
 
-const Header = () => {
+const Header = ({usuario}) => {
   return (
     <HeadContainer>
-        <h2>Cabecera</h2>
+        {usuario ? (
+            <h2>Bienvenido: Diego</h2>
+            ):(
+            <h2>Por Favor Logueate</h2>
+        )}
     </HeadContainer>
   )
 }
